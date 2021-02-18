@@ -19,8 +19,8 @@
     margin-bottom: 40px;
 }
 
-
 .banner .navigation{
-    display:flex;
+    display: flex;
     justify-content: space-around;
 }
+

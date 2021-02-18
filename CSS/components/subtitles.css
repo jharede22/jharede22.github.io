@@ -5,3 +5,12 @@
     line-height: 30px;
     text-shadow: 4px 4px 0px #000000;
 }
+
+.subtitleskills{
+    font-family: "Press Start 2P", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 25px;
+    color: white;
+}
