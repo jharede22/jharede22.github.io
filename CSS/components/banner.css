@@ -2,7 +2,7 @@
     box-sizing: content-box;
     background-image: url(../../assets/img/background.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     height: 797px;
     border-bottom: 10px solid black;
 }
