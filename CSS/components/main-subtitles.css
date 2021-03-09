@@ -1,4 +1,4 @@
-.subtitle{
+.main-subtitle{
     color: #C1FFC1;
     font-family: "Press Start 2P", sans-serif;
     font-size: 30px;
@@ -6,7 +6,7 @@
     text-shadow: 4px 4px 0px #000000;
 }
 
-.subtitleskills{
+.main-subtitleskills{
     font-family: "Press Start 2P", sans-serif;
     font-style: normal;
     font-weight: normal;

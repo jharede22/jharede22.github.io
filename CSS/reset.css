@@ -1,4 +1,4 @@
-body, h1, h1, h3 {
+body, h1, h1, h3, figure {
     margin: 0;
 }
 
@@ -10,4 +10,5 @@ button{
 body{
     font-family: "Fira Code";
 }
+
 
