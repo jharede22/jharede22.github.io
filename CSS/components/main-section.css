@@ -39,6 +39,7 @@
     margin-left: 35px;
     margin-right: 35px;
     margin-bottom: 20px;
+    font-family: "Fira Code";
 }
 
 .main-label{
@@ -68,4 +69,8 @@
 .second-button:hover{
     background-color: #00BFFF;
     color: black;
+}
+
+#name, #email, #message{
+    font-size: 25px;
 }

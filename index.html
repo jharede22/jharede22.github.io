@@ -32,9 +32,8 @@
         <nav>
             <a class="main-action" href="#skills">Skills</a>
             <a class="main-action" href="#projects">Projects</a>
-            <a class="main-action" href="">About</a>
             <a class="main-action" href="#contacts">Contact</a>
-            <a class="main-button" href="">Download CV</a>
+            <a href="./assets/pdf/JETG curriculo.pdf" download="JETG" class="main-button" href="">Download CV</a>
         </nav>
     </header>
     <section class="main-banner">
@@ -44,7 +43,7 @@
                 <h2 class="main-subtitle">FrontEnd Developer</h2>
             </div>
             <div class="navigation">
-                <a class="main-button" href="">Download CV</a>
+                <a href="./assets/pdf/JETG curriculo.pdf" download="JETG" class="main-button" href="">Download CV</a>
                 <a class="main-button -second" href="#contacts">Contacts</a>
             </div>
         </div>
@@ -105,21 +104,22 @@
         <h2 class="main-title -second">Contacts</h2>
         <form action="">
             <label class="main-label" for="name">Name</label>
-            <input class="main-form" id="name" type="text" name="name">
+            <input class="main-form" id="name" type="text" name="name" maxlength="36" placeholder="max 36 characters">
 
             <label class="main-label" for="email">Email</label>
             <input class="main-form" id="email" type="email" name="email">
 
             <label class="main-label" for="message">Message</label>
-            <textarea class="main-form" name="message" id="message" cols="30" rows="21"></textarea>
+            <textarea class="main-form" name="message" id="message" cols="30" rows="10" ></textarea>
 
             <button class="second-button" type="submit">Submit</button>
         </form>
     </section>
-    <section class="second-section">
+    <footer class="second-section">
         <a href="https://discordapp.com/users/209356876972818433/" target="_blank">
             <img class="second-section -icon" src="assets/img/discord.png" alt="Discord">
         </a>
-    </section>
+    </footer>
+    <script src="javascript/script.js"></script>
 </body>
 </html>
